@@ -44,17 +44,17 @@
 * `unzip <file.zip>`  
 解压缩
 * `zip -r <file.zip> <dir>`  
-将<dir>中内容打包生成<file.zip>
+将dir中内容打包生成file.zip
 ### .tar.gz
 * `tar zxvf <file.tar.gz>`  
 解压缩
 * `tar zcvf <file.tar.gz> <dir>`  
-将<dir>中内容打包生成<file.tar.gz>
+将dir中内容打包生成file.tar.gz
 ### .tar.bz2
 * `tar jxvf <file.tar.bz2>`  
 解压缩
-* `tar jcvf <file.tar.bz2>.<dir>`  
-将<dir>中内容打包生成<file.tar.bz2>  
+* `tar jcvf <file.tar.bz2> <dir>`  
+将dir中内容打包生成file.tar.bz2  
 
 ## 权限
 ### chmod
