@@ -54,5 +54,16 @@
 * `tar jxvf <file.tar.bz2>`  
 解压缩
 * `tar jcvf <file.tar.bz2>.<dir>`  
-将<dir>中内容打包生成<file.tar.bz2>
+将<dir>中内容打包生成<file.tar.bz2>  
 
+## 权限
+### chmod
+更改文件/目录权限
+* `chmod a+x <file/dir>`&`chmod +x <file/dir>`  
+all添加执行权限
+* `chmod u+w <file/dir>`  
+user添加写权限
+* `chmod g+rwx <file/dir>`  
+group添加所有权限
+* `chmod o-rw <file/dir>`  
+others删除读写权限
